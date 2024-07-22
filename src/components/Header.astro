@@ -1,0 +1,21 @@
+---
+import User from '../icons/user.astro'
+---
+
+<header class="sticky top-0 w-full flex items-center justify-between px-64 py-2 h-[6vh] z-50 bg-[#001219] text-[#e6f0f1] shadow-sm">
+    <section class="flex items-center gap-16">
+        <h1 class="text-xl font-semibold font-serif">CULTVM</h1>
+    
+        <nav>
+            <ul class="flex gap-2 text-sm underline">
+                <li><a href="/">Pagina principal</a></li>
+                <li><a href="/about">Sobre nosotros</a></li>
+                <li><a href="/create">Crea un evento</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <a class="h-8 w-8 justify-center flex items-center border rounded-full cursor-pointer">
+        <User />
+    </a>
+</header>

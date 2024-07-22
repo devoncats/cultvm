@@ -1,0 +1,54 @@
+---
+import Layout from "../layouts/Layout.astro"
+---
+
+<Layout title="CULTVM | Crea un evento">
+    <main class="grid place-content-center h-screen">
+        <h1 class="font-serif text-4xl text-center">Crea un evento</h1>
+        <form id="form" class="flex flex-col justify-center items-center w-[32rem] gap-6 border p-4 rounded-lg bg-[#001219] text-[#e7f3f3]" action="http://localhost:8080/api/activity" method="post" enctype="multipart/form-data">
+            <div class="flex flex-col w-full">
+                <label for="title">Titulo</label>
+                <input type="text" name="title" id="title" required>
+            </div>
+
+            <div class="flex flex-col w-full">
+                <label for="description">Descripcion</label>
+                <textarea name="description" id="description" required></textarea>
+            </div>
+
+            <div class="flex flex-col w-full">
+                <label for="date">Fecha</label>
+                <input type="date" name="date" id="date" required>
+            </div>
+
+            <div class="flex flex-col w-full">
+                <label for="title">Lugar</label>
+                <input type="text" name="lugar" id="lugar" required>
+            </div>
+
+
+            <button class="rounded bg-[#e7f3f3] text-[#001219] w-fit px-4 py-2" type="submit">Crear evento</button>
+        </form>
+    </main>
+</Layout>
+<script>
+    const form = document.getElementById('form') as HTMLFormElement;
+    
+    form?.addEventListener('submit', async (e) => {
+        e.preventDefault();
+    
+        const formData = new FormData(form);
+    
+        const response = await fetch('http://localhost:8080/api/activity', {
+            method: 'POST',
+            body: formData
+        });
+
+        if (response.ok) {
+            alert('Actividad creada correctamente');
+        } else {
+            alert('Error al crear la actividad');
+        }
+        
+    });
+</script>

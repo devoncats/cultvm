@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "title": "Clase de Yoga Matutina",
+        "description": "Disfruta de una sesión revitalizante de yoga diseñada para adultos mayores, enfocada en mejorar la flexibilidad y el bienestar general.",
+        "date": "2024-08-10",
+        "image": "https://images.pexels.com/photos/1051838/pexels-photo-1051838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "location": "Amador, Panamá",
+        "createdAt": "2024-07-22T09:15:04.679133Z",
+        "updatedAt": "2024-07-22T09:15:04.679133Z"
+    },
+    {
+        "id": 2,
+        "title": "Taller de Nutrición Saludable",
+        "description": "Aprende consejos prácticos y recibe orientación sobre una alimentación balanceada y saludable adaptada a las necesidades de los adultos mayores.",
+        "date": "2024-08-17",
+        "image": "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "location": "Avenida 5 B Sur, Panamá",
+        "createdAt": "2024-07-22T09:19:09.29979Z",
+        "updatedAt": "2024-07-22T09:19:09.29979Z"
+    },
+    {
+        "id": 3,
+        "title": "Paseo Cultural por el Casco Viejo",
+        "description": "Únete a nosotros en un recorrido histórico por el Casco Viejo de Panamá, explorando monumentos y aprendiendo sobre la rica herencia cultural del país.",
+        "date": "2024-08-24",
+        "image": "https://images.pexels.com/photos/22194974/pexels-photo-22194974/free-photo-of-pared-muro-acera-deteriorarse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "location": "Vía España, Panamá",
+        "createdAt": "2024-07-22T09:15:04.679133Z",
+        "updatedAt": "2024-07-22T09:15:04.679133Z"
+    },
+    {
+        "id": 4,
+        "title": "Curso de Fotografía Digital",
+        "description": "Descubre el mundo de la fotografía digital y aprende a capturar momentos especiales con tu cámara, adaptado especialmente para adultos mayores interesados en la tecnología.",
+        "date": "2024-09-05",
+        "image": "https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "location": "Amador, Panamá",
+        "createdAt": "2024-07-22T09:19:09.29979Z",
+        "updatedAt": "2024-07-22T09:19:09.29979Z"
+    },
+    {
+        "id": 5,
+        "title": "Charla sobre Salud Mental y Bienestar",
+        "description": "Participa en una charla informativa sobre la importancia de la salud mental y estrategias para mantener un bienestar emocional en la tercera edad.",
+        "date": "2024-09-12",
+        "image": "https://images.pexels.com/photos/2821823/pexels-photo-2821823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "location": "Clayton, Panamá",
+        "createdAt": "2024-07-22T09:15:04.679133Z",
+        "updatedAt": "2024-07-22T09:15:04.679133Z"
+    },
+    {
+        "id": 6,
+        "title": "Taller de Jardinería Urbana",
+        "description": "Aprende técnicas prácticas de jardinería urbana para cultivar plantas en espacios reducidos, ideal para adultos mayores que disfrutan de la naturaleza.",
+        "date": "2024-09-19",
+        "image": "https://images.pexels.com/photos/5529604/pexels-photo-5529604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "location": "Amador, Panamá",
+        "createdAt": "2024-07-22T09:19:09.29979Z",
+        "updatedAt": "2024-07-22T09:19:09.29979Z"
+    },
+    {
+        "id": 7,
+        "title": "Cine Debate: Clásicos del Cine Panameño",
+        "description": "Disfruta de una tarde de cine seguida de un debate sobre películas clásicas del cine panameño, una actividad cultural enriquecedora para adultos mayores.",
+        "date": "2024-09-26",
+        "image": "https://images.pexels.com/photos/109669/pexels-photo-109669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "location": "Clayton, Panamá",
+        "createdAt": "2024-07-22T09:15:04.679133Z",
+        "updatedAt": "2024-07-22T09:15:04.679133Z"
+    },
+    {
+        "id": 8,
+        "title": "Taller de Bailes Tropicales",
+        "description": "Aprende a bailar ritmos tropicales como salsa y merengue en un ambiente divertido y relajado, perfecto para adultos mayores amantes del baile.",
+        "date": "2024-10-03",
+        "image": "https://images.pexels.com/photos/175658/pexels-photo-175658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "location": "Calle 50, Panamá",
+        "createdAt": "2024-07-22T09:19:09.29979Z",
+        "updatedAt": "2024-07-22T09:19:09.29979Z"
+    },
+    {
+        "id": 9,
+        "title": "Conferencia sobre Historia de Panamá",
+        "description": "Escucha una conferencia fascinante sobre la historia de Panamá desde la precolombina hasta la actualidad, impartida por expertos en el tema.",
+        "date": "2024-10-10",
+        "image": "https://images.pexels.com/photos/2433376/pexels-photo-2433376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "location": "Vía Israel, Panamá",
+        "createdAt": "2024-07-22T09:15:04.679133Z",
+        "updatedAt": "2024-07-22T09:15:04.679133Z"
+    },
+    {
+        "id": 10,
+        "title": "Excursión Ecológica al Parque Natural",
+        "description": "Únete a una emocionante excursión ecológica al Parque Natural para observar la flora y fauna local, una actividad perfecta para los amantes de la naturaleza mayores de edad.",
+        "date": "2024-10-17",
+        "image": "https://images.pexels.com/photos/216216/pexels-photo-216216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "location": "Avenida 5 B Sur, Panamá",
+        "createdAt": "2024-07-22T09:19:09.29979Z",
+        "updatedAt": "2024-07-22T09:19:09.29979Z"
+    }
+]

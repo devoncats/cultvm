@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro"
+import activities from '../mocks/data.json'
+
+const { id } = Astro.params;
+
+const activity = activities.find((activity) => activity.id === Number(id));
+---
+
+<Layout title={`CULTVM | ${activity?.title}`}>
+    <main>
+        <img class="w-full h-[60vh] object-cover" src={activity?.image} alt={activity?.image} />
+        <h1 class="px-64 mt-12 font-serif text-4xl text-center">{activity?.title}</h1>
+
+        <p class="px-64 mt-4">{activity?.description}</p>
+        <p class="px-64 mt-2">Fecha: {new Date(activity?.date ?? '').toLocaleDateString()}</p>
+        <p class="px-64 mt-2">Lugar: {activity?.location}</p>
+        
+    </main>
+</Layout>
